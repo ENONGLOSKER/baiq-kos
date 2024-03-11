@@ -1,5 +1,9 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
-    margin: 0;
     font-family: "Kanit", sans-serif;
   } 
   
@@ -9,11 +13,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 50px;
+    padding: 10px 50px;
   }
   
   .navbar-logo img {
-    height: 40px;
+    height: 50px;
     padding: 10px;
   }
   
@@ -26,15 +30,20 @@ body {
   
   .menu-items li {
     padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   
   /* tombol login */
   .menu-items li:nth-child(4) {
     background-color: #FF407D;
     color: #feedf0;
-    padding: 11px 30px 0 30px;
-    border-radius: 50px;
-    margin-left: 5px;
+    height: 40px;
+    width: 90px;
+    margin-top: 4px;
+    border-radius:50px;
+
   }
   .menu-items li:nth-child(4) a {
     color: #feedf0;
@@ -84,9 +93,11 @@ body {
     color: #FF407D;
   }
   .container h1{
-    margin-bottom: -15px;
     font-size: 40px;
     font-weight: 500;
+  }
+  .container #slogan{
+    margin-bottom: 15px;
   }
   .container .header1 img{
     width: 100%;
@@ -104,7 +115,7 @@ body {
     padding: 0 8px;
   }
   .container .header1 form button{
-    padding: 12px 42px;
+    padding: 12px 26px;
     border-radius: 40px;
     background-color: #FF407D;
     color: white;
@@ -118,8 +129,8 @@ body {
   }
   .container .header1 form input{
     height: 10px;
-    width: 60%;
-    padding: 5px 10px 5px 0;
+    width: 70%;
+    padding: 15px 10px 15px 0;
     background-color: white;
     border: none;
     outline: none;
@@ -169,6 +180,8 @@ img {
 .filter form select{
   width: 100px;
   padding: 6px 8px;
+  border:1px solid #d2d2d2;
+  border-radius: 2px;
 }
 .filter form input{
   padding: 6.5px 8.5px;
@@ -181,6 +194,72 @@ img {
   background-color: #d30d4c;
 }
 
+
+/* isi konten */
+.kos{
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.kos a{
+  text-decoration: none;
+  color: black;
+  margin-bottom: 22px;
+}
+.kos a .kos-card{
+  width: 260px;
+  border-radius: 22px;
+  overflow: hidden;
+  box-shadow: 5px 5px 10px rgb(211, 211, 211);
+}
+.kos a .kos-card #bg{
+  width: 260px;
+  border-radius: 0;
+}
+.kos .kos-card .kos-title{
+  padding: 10px 20px 20px 20px;
+}
+.kos .kos-card .kos-title .kos-ket1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* kos tittle sub1 */
+.kos .kos-card .kos-title .kos-ket1 .kos-sub1{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.kos .kos-card .kos-title .kos-ket1 .kos-sub1 h5{
+  background-color: #40679E;
+  padding: 4px 12px;
+  border-radius:6px;
+  color: white;
+}
+
+/* kos tittle sub 2 */
+.kos .kos-card .kos-title .kos-ket1 .kos-love{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  color: #ff1369;
+}
+.kos .kos-card .kos-title h2 span {
+  font-size: 15px;
+  color: #40679E;
+}
+.kos .kos-card .kos-title #namakos {
+  font-size: 25px;
+  padding-bottom: 8px;
+}
+.kos .kos-card .kos-title #alamat {
+  font-size: 12px;
+  font-style: italic;
+}
+
+/* resposif */
   @media screen and (max-width: 765px) {
     .navbar {
         flex-direction: row;
