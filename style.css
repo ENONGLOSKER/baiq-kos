@@ -209,13 +209,13 @@ img {
   margin-bottom: 22px;
 }
 .kos a .kos-card{
-  width: 260px;
+  width: 330px;
   border-radius: 22px;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgb(211, 211, 211);
 }
 .kos a .kos-card #bg{
-  width: 260px;
+  width: 330px;
   border-radius: 0;
 }
 .kos .kos-card .kos-title{
@@ -240,6 +240,10 @@ img {
 }
 
 /* kos tittle sub 2 */
+.kos .kos-card .kos-title h2{
+  font-size: 35px;
+}
+
 .kos .kos-card .kos-title .kos-ket1 .kos-love{
   display: flex;
   gap: 5px;
@@ -247,7 +251,7 @@ img {
   color: #ff1369;
 }
 .kos .kos-card .kos-title h2 span {
-  font-size: 15px;
+  font-size: 20px;
   color: #40679E;
 }
 .kos .kos-card .kos-title #namakos {
