@@ -357,13 +357,13 @@ img {
   }
 
   .kos a .kos-card{
-    width: 170px;
+    width: 160px;
     border-radius: 12px;
     overflow: hidden;
     box-shadow: 5px 5px 10px rgb(211, 211, 211);
   }
   .kos a .kos-card #bg{
-    width: 170px;
+    width: 160px;
     border-radius: 0;
   }
   /* kos tittle sub1 */
