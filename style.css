@@ -327,7 +327,7 @@ img {
     /* main */
     .container {
       margin: 0 10px;
-      background-color: rgb(0, 140, 255);
+      /* background-color: rgb(194, 98, 245); */
     }
     .container span{
       color: #FF407D;
@@ -343,7 +343,72 @@ img {
       flex-direction: column;
       align-items: center;
    }
-    
+
+
+   /* card */
+   .kos{
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+   .kos a{
+    margin-bottom: 10px;
+  }
+
+  .kos a .kos-card{
+    width: 140px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 5px 5px 10px rgb(211, 211, 211);
+  }
+  .kos a .kos-card #bg{
+    width: 140px;
+    border-radius: 0;
+  }
+  /* kos tittle sub1 */
+  .kos .kos-card .kos-title{
+    padding:5px 10px 10px 10px;
+  }
+  .kos .kos-card .kos-title .kos-ket1{
+    display: flex;
+  }
+  .kos .kos-card .kos-title .kos-ket1 .kos-sub1{
+    display: flex;
+    justify-content: space-around;
+    gap: 5px;
+
+  }
+  .kos .kos-card .kos-title .kos-ket1 .kos-sub1 h5{
+    font-size: 7px;
+    padding: 2px 6px;
+    border-radius: 4px;
+  }
+  .kos .kos-card .kos-title .kos-ket1 .kos-sub1 p{
+    font-size: 9px
+  }
+  .kos .kos-card .kos-title .kos-ket1 .kos-love {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    color: #ff1369;
+    font-size: 12px;
+  }
+
+  .kos .kos-card .kos-title h2{
+    font-size: 14px;
+    margin-top: 5px;
+  }
+  .kos .kos-card .kos-title h2 span{
+    font-size: 9px;
+  }
+  .kos .kos-card .kos-title #namakos{
+    font-size: 16px;
+    padding: 0;
+  }
+  .kos .kos-card .kos-title #alamat{
+    font-size: 7px;
+  }
     
   }
   
