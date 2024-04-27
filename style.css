@@ -134,7 +134,7 @@ body {
     background-color: white;
     border: none;
     outline: none;
-    font-size: 18px;
+    font-size: 15px;
   }
   .container .header1 form #iconsch{
     height: 40%;
@@ -345,7 +345,7 @@ img {
       position: relative;
    }
    .container .header1 img{
-    height: 120px;
+    height: 140px;
     margin-bottom: 160px;
   }
 
