@@ -342,7 +342,12 @@ img {
       display: flex;
       flex-direction: column;
       align-items: center;
+      position: relative;
    }
+   .container .header1 img{
+    height: 120px;
+    margin-bottom: 160px;
+  }
 
 
    /* card */
@@ -410,5 +415,5 @@ img {
     font-size: 7px;
   }
     
-  }
+}
   
