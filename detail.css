@@ -206,7 +206,7 @@ body {
 
   .sewa{
     border-radius: 12px;
-    padding: 23px 30px;
+    padding: 23px 28px;
     width: 500px;
     height: 300px;
     box-shadow: 5px 5px 30px rgba(250, 192, 213, 0.588);
@@ -242,7 +242,7 @@ body {
   .sewa form .ajukan a:nth-child(1){
     color: #FF407D;
     border: 1px solid #FF407D;
-    padding: 12px 30px;
+    padding: 12px 28px;
     border-radius: 6px;
     font-size: 15px;
     text-decoration: none;
@@ -255,7 +255,7 @@ body {
   .sewa form .ajukan a:nth-child(2){
     color: #feedf0;
     background-color: #FF407D;
-    padding: 12px 30px;
+    padding: 12px 28px;
     border-radius: 6px;
     font-size: 15px;
     text-decoration: none;
@@ -281,7 +281,7 @@ body {
       height: 50vh;
       width:60%;
       position: absolute;
-      margin-top: 30px;
+      margin-top: 28px;
       transform: translateX(-46%);
       
     }
