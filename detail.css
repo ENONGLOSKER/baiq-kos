@@ -237,7 +237,7 @@ body {
   .sewa form .ajukan{
     margin-top: 20px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
   }
   .sewa form .ajukan a:nth-child(1){
     color: #FF407D;
