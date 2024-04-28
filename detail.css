@@ -145,7 +145,7 @@ body {
     width: 500px;
     height: 200px;
     object-fit: cover;
-    object-position: center;
+    object-position:  bottom center;
     border-radius: 12px;
     overflow: hidden;
   }
