@@ -209,13 +209,13 @@ img {
   margin-bottom: 22px;
 }
 .kos a .kos-card{
-  width: 330px;
+  width: 300px;
   border-radius: 22px;
   overflow: hidden;
   box-shadow: 5px 5px 10px rgb(211, 211, 211);
 }
 .kos a .kos-card #bg{
-  width: 330px;
+  width: 300px;
   border-radius: 0;
 }
 .kos .kos-card .kos-title{
