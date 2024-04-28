@@ -242,8 +242,9 @@ img {
 /* kos tittle sub 2 */
 .kos .kos-card .kos-title h2{
   font-size: 20px;
-  font-weight: 400;
+  font-weight: 600;
   color: #ff1369;
+  padding-top: 5px;
 }
 
 .kos .kos-card .kos-title .kos-ket1 .kos-love{
@@ -258,7 +259,7 @@ img {
 }
 .kos .kos-card .kos-title #namakos {
   font-size: 28px;
-  padding-bottom: 8px;
+  padding-bottom: 4px;
 }
 .kos .kos-card .kos-title #alamat {
   font-size: 14px;
